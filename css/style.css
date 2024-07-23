@@ -68,7 +68,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.btn {
+.button {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
@@ -77,7 +77,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.btn :hover .btn :focus {
+.button :hover .button :focus {
   background-color: #404bbf;
 }
 .desc-title {
