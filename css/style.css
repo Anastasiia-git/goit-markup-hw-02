@@ -25,7 +25,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link :focus {
+.nav-link :focus .nav-link :hover {
   color: #404bbf;
 }
 .contacts {
@@ -38,11 +38,23 @@ body {
 .contacts-mail :hover .contacts-mail :focus {
   color: #404bbf;
 }
+.mail.link {
+  color: #434455;
+}
+.mail.link :hover .mail.link :focus {
+  color: #404bbf;
+}
 .contacts-tel {
   letter-spacing: 0.02em;
   color: #434455;
 }
 .contacts-tel :hover .contacts-tel :focus {
+  color: #404bbf;
+}
+.tel.link {
+  color: #434455;
+}
+.tel.link :hover .tel.link :focus {
   color: #404bbf;
 }
 
@@ -68,7 +80,6 @@ body {
 .btn :hover .btn :focus {
   background-color: #404bbf;
 }
-
 .desc-title {
   font-weight: 500;
   font-size: 20px;
