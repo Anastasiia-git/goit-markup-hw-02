@@ -34,15 +34,15 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-list .nav-link :focus,
-.nav-link :hover {
+.contacts-list:focus,
+.contacts-list:hover {
   color: #404bbf;
 }
 .contacts.link {
   color: #434455;
 }
-.contacts.link :hover,
-.contacts.link :focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: #404bbf;
 }
 
@@ -65,8 +65,8 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 .desc-title {
